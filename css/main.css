@@ -1,15 +1,17 @@
 html {
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-img-flex {
+.img-flex {
   display: block;
   width: 100%;
 }
+
 .card {
   overflow: hidden;
   border: 1px solid #ccc;
